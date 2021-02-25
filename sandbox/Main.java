@@ -1,7 +1,6 @@
 package sandbox;
 
 import sandbox.battleship.Board;
-import sandbox.battleship.Direction;
 import sandbox.battleship.Ship;
 
 import static sandbox.battleship.Direction.*;
