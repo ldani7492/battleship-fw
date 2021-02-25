@@ -76,7 +76,9 @@ public class Board {
                     if (ship.isHit(x,y)) {
                         sb.append('*');
                     }
-                    sb.append('O');
+                    else {
+                        sb.append('O');
+                    }
                 } else if (isSunk(x,y)) {
                     sb.append('X');
                 } else {
